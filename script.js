@@ -11,6 +11,8 @@ let team1 = [];
 for(let x of players){
 	team1.push(x);
 }
+document.write(team1);
+document.write(players);
 
 window.players = players;
 window.person = person;
