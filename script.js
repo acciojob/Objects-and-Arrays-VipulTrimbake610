@@ -9,10 +9,16 @@ const person = {
 let team = players;
 let team1 = [];
 for(let x of players){
-	team1.push(x);
+	
 }
-document.write(team1);
-document.write(players);
+let cap1 = {};
+for(let x in person){
+	cap1[x] = person[x];
+}
+	
+// 	console.log(cap1)
+// document.write(team1,"<br>");
+// document.write(players);
 
 window.players = players;
 window.person = person;
